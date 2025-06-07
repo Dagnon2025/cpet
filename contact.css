@@ -1,0 +1,16 @@
+ body { margin: 0; font-family: helvetica; }
+  #form
+     {
+      width: 500px;
+     
+      border: 3px solid #1404fb;
+      text-align: center;
+      color: #ffff;
+
+      background-color: #43484e;
+     }
+     input
+     {
+       background-color: rgb(27, 199, 199);
+       opacity: 0.3;
+     }
