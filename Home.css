@@ -1,4 +1,139 @@
-body { margin: 0; font-family: helvetica; }
+
+     body { margin: 0; font-family: helvetica; }
+	.top-bar 
+	{
+      display: flex;
+      height: 50px;
+      font-size: 0.95em;
+      color: white;
+    }
+    .bar-orange 
+	{
+      background: #ff8800;
+      width: 70%;
+      display: flex;
+      align-items: center;
+      padding-left: 80px;
+    }
+    .bar-blue 
+	{
+      background: #003366;
+      width: 30%;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      gap: 25px;
+      padding-right: 60px;
+    }
+    .bar-blue .email 
+	{
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .bar-blue .email i 
+	{
+      color: #ff8800;
+    }
+    .social-icons 
+	{
+      display: flex;
+      gap: 12px;
+	  color: white;
+    }
+    .social-icons a 
+	{
+      color: white;
+      text-decoration: none;
+      font-size: 1em;
+    }
+    .header-container 
+	{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: white;
+      padding: 8px 15px;
+	  
+	  box-shadow: 0 2px 12px 0 rgb(0 0 0 / 50%);
+	  border: 0px solid #B8860B;
+    }
+    .header-left 
+	{
+      display: flex;
+      align-items: center;
+      gap: 6px;
+	  padding-left: 80px;
+    }
+    .header-left img 
+	{
+      height: 50px;
+    }
+    .header-left .school-name 
+	{
+      font-size: 1.2em;
+      font-weight: bold;
+      color: #003366;
+    }
+    .nav-menu 
+	{
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    .nav-menu a 
+	{
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+    }
+    .nav-menu a.active 
+	{
+      color: #ff8800;
+    }
+    .dropdown 
+	{
+      position: relative;
+    }
+    .dropdown-content 
+	{
+      display: none;
+      position: absolute;
+      background: white;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+	   z-index: 1000;
+    }
+    .dropdown:hover .dropdown-content 
+	{
+      display: block;
+    }
+    .dropdown-content a 
+	{
+      display: block;
+      padding: 10px;
+      text-decoration: none;
+      color: black;
+    }
+    .info-block 
+	 .info-block 
+	{
+      background-color: #ffff;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      font-size: 1em;
+      color: black;
+      font-weight: bold;
+	  height: 90px;
+	  padding-right: 100px;
+    }
+    .info-block a
+	{
+      color: #ff8800;
+      font-size: 1.6em;
+	  padding-right: 10px;
+    }
+	   
 	.slider-container 
 	{
 	  position: relative;
@@ -47,4 +182,42 @@ body { margin: 0; font-family: helvetica; }
 	{
 	  right: 20px;
 	}
+<<<<<<< HEAD
 	
+=======
+	
+
+
+.contact-info i {
+  color: #ff8800; /* couleur orange pour les deux icônes */
+}
+
+.phone,
+.email {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: white;
+  font-size: 0.95em;
+}
+.social-icons a:hover{
+ color: #ff8800;
+ border-style: solid;
+  width: 16px;
+  height: 18px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   transition: all 0.9s ease;
+}
+a{
+	text-decoration: none;
+}
+.button a{
+	margin-top: 10px;
+    padding: 10px 20px; 
+	 background-color:#003366;
+	  color: #fff; border: none;
+}
+>>>>>>> 175dcf3 (Mise a jour header)
