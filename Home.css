@@ -1,3 +1,4 @@
+
 body { margin: 0; font-family: helvetica; }
 	
 .footer {
@@ -70,6 +71,7 @@ body { margin: 0; font-family: helvetica; }
 	  color: #fff;
 	  padding: 0px 20px;
 	  text-align: center;
+
 	}
 
 	.footer-cards-title h3 {
@@ -323,6 +325,7 @@ a{
   justify-content: center;
   transition: all 0.3s ease;
 	}
+
 
 .nav-menu a {
   text-decoration: none;
@@ -2687,3 +2690,5 @@ footer p {
 
 
 
+
+	
