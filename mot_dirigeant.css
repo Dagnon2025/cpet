@@ -1,6 +1,7 @@
-body { margin: 0; font-family: helvetica; }	 
- 	
-	
+body { 
+    margin: 0; 
+    font-family: helvetica; 
+}	 
 .footer {
 		  background: #003366;
 		  color: white;
@@ -225,7 +226,9 @@ body { margin: 0; font-family: helvetica; }
   position: relative;
   display: inline-block;
 }
-
+a{
+  text-decoration: none;
+}
 .dropdown-content1 {
    display: none;
       position: absolute;
@@ -233,7 +236,9 @@ body { margin: 0; font-family: helvetica; }
       box-shadow: 0 8px 16px rgba(0,0,0,0.2);
 	   z-index: 1000;
 }
-
+a{
+  text-decoration: none;
+}
 .dropdown-content1 a {
 display: block;
       padding: 10px;
@@ -338,6 +343,3 @@ display: block;
 	.contact-info i {
   color: #ff8800;
 } 
-a{
-  text-decoration: none;
-}
